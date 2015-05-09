@@ -14,6 +14,10 @@
 		66EEE02C1AFDDC7C003CE56D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66EEE02B1AFDDC7C003CE56D /* Images.xcassets */; };
 		66EEE02F1AFDDC7C003CE56D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66EEE02D1AFDDC7C003CE56D /* LaunchScreen.xib */; };
 		66EEE03B1AFDDC7C003CE56D /* BRTextFeildTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EEE03A1AFDDC7C003CE56D /* BRTextFeildTests.m */; };
+		66EEE0541AFDDCC9003CE56D /* icon-提示.png in Resources */ = {isa = PBXBuildFile; fileRef = 66EEE04F1AFDDCC9003CE56D /* icon-提示.png */; };
+		66EEE0551AFDDCC9003CE56D /* icon-显示密码-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 66EEE0501AFDDCC9003CE56D /* icon-显示密码-01.png */; };
+		66EEE0561AFDDCC9003CE56D /* icon-显示密码-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 66EEE0511AFDDCC9003CE56D /* icon-显示密码-02.png */; };
+		66EEE05A1AFDDD1C003CE56D /* UITextField+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EEE0591AFDDD1C003CE56D /* UITextField+Alert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		66EEE0341AFDDC7C003CE56D /* BRTextFeildTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRTextFeildTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EEE0391AFDDC7C003CE56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66EEE03A1AFDDC7C003CE56D /* BRTextFeildTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRTextFeildTests.m; sourceTree = "<group>"; };
+		66EEE04F1AFDDCC9003CE56D /* icon-提示.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-提示.png"; sourceTree = "<group>"; };
+		66EEE0501AFDDCC9003CE56D /* icon-显示密码-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-显示密码-01.png"; sourceTree = "<group>"; };
+		66EEE0511AFDDCC9003CE56D /* icon-显示密码-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-显示密码-02.png"; sourceTree = "<group>"; };
+		66EEE0581AFDDD1C003CE56D /* UITextField+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Alert.h"; sourceTree = "<group>"; };
+		66EEE0591AFDDD1C003CE56D /* UITextField+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Alert.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,7 @@
 		66EEE0121AFDDC7C003CE56D = {
 			isa = PBXGroup;
 			children = (
+				66EEE04D1AFDDCC9003CE56D /* Catergoy */,
 				66EEE01D1AFDDC7C003CE56D /* BRTextFeild */,
 				66EEE0371AFDDC7C003CE56D /* BRTextFeildTests */,
 				66EEE01C1AFDDC7C003CE56D /* Products */,
@@ -117,6 +127,27 @@
 				66EEE0391AFDDC7C003CE56D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66EEE04D1AFDDCC9003CE56D /* Catergoy */ = {
+			isa = PBXGroup;
+			children = (
+				66EEE04E1AFDDCC9003CE56D /* Image */,
+				66EEE0581AFDDD1C003CE56D /* UITextField+Alert.h */,
+				66EEE0591AFDDD1C003CE56D /* UITextField+Alert.m */,
+			);
+			name = Catergoy;
+			path = BRTextFeild/Catergoy;
+			sourceTree = "<group>";
+		};
+		66EEE04E1AFDDCC9003CE56D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				66EEE04F1AFDDCC9003CE56D /* icon-提示.png */,
+				66EEE0501AFDDCC9003CE56D /* icon-显示密码-01.png */,
+				66EEE0511AFDDCC9003CE56D /* icon-显示密码-02.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +231,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				66EEE02A1AFDDC7C003CE56D /* Main.storyboard in Resources */,
+				66EEE0561AFDDCC9003CE56D /* icon-显示密码-02.png in Resources */,
+				66EEE0551AFDDCC9003CE56D /* icon-显示密码-01.png in Resources */,
 				66EEE02F1AFDDC7C003CE56D /* LaunchScreen.xib in Resources */,
+				66EEE0541AFDDCC9003CE56D /* icon-提示.png in Resources */,
 				66EEE02C1AFDDC7C003CE56D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66EEE05A1AFDDD1C003CE56D /* UITextField+Alert.m in Sources */,
 				66EEE0271AFDDC7C003CE56D /* ViewController.m in Sources */,
 				66EEE0241AFDDC7C003CE56D /* AppDelegate.m in Sources */,
 				66EEE0211AFDDC7C003CE56D /* main.m in Sources */,
