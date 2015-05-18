@@ -72,6 +72,8 @@ static char isPasswodKey  ='p';
     else{
         imageView.image=self.beforeImage;
     }
+    
+    [self becomeFirstResponder];
 }
 
 
